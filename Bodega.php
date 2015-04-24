@@ -1,7 +1,5 @@
 <?php
         include '/php/conexionbd.php';
-        
-           
 ?>
 <!doctype html>
 <html>
