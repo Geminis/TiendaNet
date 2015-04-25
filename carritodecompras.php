@@ -1,6 +1,6 @@
 <?php
 	session_start();
-        echo 'la sesion actual es:'.  session_id();
+        //echo 'la sesion actual es:'.  session_id();
 	include '/php/conexionbd.php';
 	if(isset($_SESSION['carrito'])){
 		if(isset($_GET['id'])){
@@ -76,7 +76,7 @@
         <link type="text/css"  href="css/jquery.datepick.css" rel="stylesheet" media="screen" />
         <script type="text/javascript" src="js/jquery.js"></script>
         <script src="js/jquery-ui-1.10.4.custom.min.js"></script>
-        <!--<script type="text/javascript" src="js/interaccionTienda.js"></script>-->
+        <script type="text/javascript" src="js/interaccionTienda.js"></script>
         <script type="text/javascript" src="js/amcharts.js"></script>
         <script type="text/javascript" src="js/serial.js"></script>
         <script type="text/javascript" src="js/light.js"></script>
